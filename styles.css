@@ -1,21 +1,30 @@
+html { overflow-y: scroll; }
 body{
     padding: 0%;
     margin: 0%;
-    height: 100vh;
+    height: 2100px;
     display: flex;
     flex-direction: column;
     justify-items: stretch;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .part1{
     background-color: #1f2937;
-    flex: 1;
+    flex: 1.2;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .part2{
     
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .part3{
@@ -42,16 +51,101 @@ li{
     list-style: none;
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: normal;
+    margin-top: 4px;
 }
 ul{
     padding: 0%;
     margin: 0%;
     display: flex;
+    gap: 32px;
 }
 
+.part1-content{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1200px;
+    
+    
+}
 .header{
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
     display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    margin-top: 16px; 
+    margin-bottom: 60px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+.part1-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.part1-info-content{
+    flex-basis: 600px;
+    flex-wrap: wrap;
+    
+
+    
+}
+.part1-info-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.part1-info-info{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 16px 0px;
+}
+button{
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 30px;
+}
+
+
+.containers{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+
+}
+
+
+.part2-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.box{
+    border-style: solid;
+    border-radius: 16px;
+    border-color: #3882f6;
+    height: 180px;
+    width: 180px;
+    border-width: 4px;
+    margin-top: -60px;
+}
+
+.box-text{
+    width: 180px;
+    margin-top: 10px;
+    ;
 }
