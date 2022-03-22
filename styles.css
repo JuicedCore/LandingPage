@@ -65,6 +65,7 @@ ul{
     display: flex;
     flex-direction: column;
     flex-basis: 1200px;
+    justify-content: flex-start;
     
     
 }
@@ -73,10 +74,10 @@ ul{
     color: #f9faf8;
     font-weight: bold;
     display: flex;
-    align-items: center;
+
     justify-content: space-between;  
     margin-top: 16px; 
-    margin-bottom: 60px;
+    
 }
 
 img{
@@ -87,7 +88,7 @@ img{
 .part1-info{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
     
     
 }
