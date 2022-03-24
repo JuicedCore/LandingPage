@@ -40,7 +40,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: 0.8;
 }
 
 .footer{
@@ -199,12 +199,12 @@ button{
     font-size: 18px;
 }
 .part4-text-header{
-    font-size: 36px;
+    font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
 }
 .part4-text{
-    font-size: 24px;
+    font-size: 18px;
     color: #f9faf8;
 }
 
